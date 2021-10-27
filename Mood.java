@@ -5,7 +5,6 @@ public class Mood {
 	{
 		MoodAnalyser moodAnalyser =new MoodAnalyser ("I am in sad Mood ");
 		String mood= moodAnalyser.analyseMood();
-		String expectedValue="sad";
 		System.out.println(mood);
 		
 	}
